@@ -1,0 +1,27 @@
+[project]
+name = "mcp_data_analyzer"
+version = "0.1.7"
+description = "MCP Data Analizer project"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+ "mcp>=1.10.1",
+ "numpy>=2.3.1",
+ "pandas>=2.3.0",
+ "scikit-learn>=1.7.0",
+ "matplotlib>=3.10.3",
+ "plotly>=6.2.0",
+ "scipy==1.15.0",
+ "statsmodels>=0.14.4",
+ "openpyxl>=3.1.5",
+]
+[[project.authors]]
+name = "Ouchini Kaeru"
+email = "ouchinikaeru@gmail.com"
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+mcp_data_analyzer = "mcp_data_analyzer:main"
