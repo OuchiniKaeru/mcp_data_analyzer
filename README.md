@@ -1,4 +1,4 @@
-# MCP Data Analizer
+# MCP Data Analyzer
 
 ## Features
 
@@ -18,13 +18,13 @@ uv sync
 ### Development (Unpublished Servers)
 ```json
 "mcpServers": {
-  "mcp-data-analizer": {
+  "mcp-data-analyzer": {
     "command": "uv",
     "args": [
       "--directory",
-      "/path_to_mcp_data_analizer/src/mcp_data_analizer",
+      "/path_to_mcp_data_analyzer/src/mcp_data_analyzer",
       "run",
-      "mcp_data_analizer"
+      "mcp_data_analyzer"
     ]
   }
 }
@@ -33,10 +33,10 @@ uv sync
 ### Published Servers
 ```json
 "mcpServers": {
-  "mcp-data-analizer": {
+  "mcp-data-analyzer": {
     "command": "uvx",
     "args": [
-      "mcp_data_analizer"
+      "mcp_data_analyzer"
     ]
   }
 }
@@ -60,13 +60,13 @@ uv sync
 ### 開発 (未公開サーバー)
 ```json
 "mcpServers": {
-  "mcp-data-analizer": {
+  "mcp-data-analyzer": {
     "command": "uv",
     "args": [
       "--directory",
-      "/path_to_mcp_data_analizer/src/mcp_data_analizer",
+      "/path_to_mcp_data_analyzer/src/mcp_data_analyzer",
       "run",
-      "mcp_data_analizer"
+      "mcp_data_analyzer"
     ]
   }
 }
@@ -75,10 +75,10 @@ uv sync
 ### 公開サーバー
 ```json
 "mcpServers": {
-  "mcp-data-analizer": {
+  "mcp-data-analyzer": {
     "command": "uvx",
     "args": [
-      "mcp_data_analizer"
+      "mcp_data_analyzer"
     ]
   }
 }

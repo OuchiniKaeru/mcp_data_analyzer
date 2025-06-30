@@ -1,7 +1,7 @@
 [project]
 name = "mcp_data_analyzer"
 version = "0.1.7"
-description = "MCP Data Analizer project"
+description = "MCP Data Analyzer project"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
